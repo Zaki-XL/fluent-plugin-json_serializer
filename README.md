@@ -2,9 +2,8 @@
 
 ## 概要
 
-* Record Serializerのfilter版です
-* TD-agent v0.12以降で動作します
-* とりあえず動いてます
+* TD-agent v0.12以降で動作する、filterプラグインです
+* fluentdに来たrecordを、1つのキーに収納します
 
 ## plugin詳細
 
@@ -56,7 +55,6 @@ $ /opt/td-agent/embedded/bin/fluent-gem install pkg/fluent-plugin-json-serialize
 ## ToDo
 
 * READMEを充実
-* Mixin対応して、動的TAG書き換え出来るように
 
 ## Contributing
 
