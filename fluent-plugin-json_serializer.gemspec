@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
   spec.name          = "fluent-plugin-json_serializer"
-  spec.version       = "0.0.2"
+  spec.version       = "0.0.4"
   spec.authors       = ["Zaki_XL"]
   spec.email         = ["heavenzdrive@gmail.com"]
 
